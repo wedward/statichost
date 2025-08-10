@@ -88,7 +88,7 @@ def build(axes):
         case 4:
             show(*build4())
         case 7:
-            show(*build4(spacing=1.63), *build3(rod_shape=quadrod, spacing=2) )
+            show(*build4(2, spacing=1.63), *build3(2, rod_shape=quadrod, spacing=2) )
         case _:
             print('invalid')
 
