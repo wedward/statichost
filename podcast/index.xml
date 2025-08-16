@@ -27,7 +27,7 @@
       <description>This is a test episode to verify RSS feed parsing in Pocket Casts.</description>
       <pubDate>Thu, 14 Aug 2025 10:00:00 GMT</pubDate>
       <enclosure url="https://wedward.github.io/statichost/podcast/Voice_001bri1e.m4a" length="226747" type="audio/x-m4a"/>
-      <guid>https://<username>.github.io/podcast/test.mp3</guid>
+      <guid>https://wedward.github.io/podcast/Voice_001bri1e.m4a</guid>
       <itunes:duration>00:00:10</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
