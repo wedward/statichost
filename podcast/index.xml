@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <!-- Basic metadata -->
+    <title>My Test Podcast</title>
+    <link>https://<username>.github.io/podcast/</link>
+    <language>en-us</language>
+    <copyright>2025 My Test Podcast</copyright>
+    <description>A test podcast feed for Pocket Casts.</description>
+
+    <!-- Atom self link -->
+    <atom:link href="https://wedward.github.io/statichost/podcast/index.xml"
+               rel="self" type="application/rss+xml" />
+
+    <!-- iTunes-specific -->
+    <itunes:author>Test Author</itunes:author>
+    <itunes:summary>A test podcast feed for Pocket Casts.</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://wedward.github.io/statichost/podcast/cover.jpg" />
+    <itunes:category text="Technology" />
+
+    <!-- Episode -->
+    <item>
+      <title>Episode 1 - Test Audio</title>
+      <description>This is a test episode to verify RSS feed parsing in Pocket Casts.</description>
+      <pubDate>Thu, 14 Aug 2025 10:00:00 GMT</pubDate>
+      <enclosure url="https://wedward.github.io/statichost/podcast/Voice_001bri1e.m4a" length="226747" type="audio/x-m4a"/>
+      <guid>https://<username>.github.io/podcast/test.mp3</guid>
+      <itunes:duration>00:00:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+  </channel>
+</rss>
